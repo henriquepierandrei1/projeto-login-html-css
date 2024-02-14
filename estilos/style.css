@@ -2,10 +2,13 @@
 
 /* MOBILE FIRST */
 
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -22,7 +25,7 @@ section {
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.363);
 }
 
-/* Div onde está a imagem */
+/* Article onde está a imagem */
 #image-fundo {
     background-color: red;
     width: 100%;
@@ -38,3 +41,57 @@ section {
     border-radius: 30px;
 }
 
+/* Article onde está o cabecalho */
+#cabecalho {
+    color: rgb(41, 42, 44);
+    width: 90%;
+    margin: auto;
+}
+#cabecalho h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 5%;
+    font-weight: 700;
+
+    padding-bottom: 5%;
+}
+#cabecalho p {
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Article onde estara os inputs em relaçao a interacao com o usuario */
+#interacao-usuario {
+    background-color: red;
+    width: 100%;
+    height: 49%;
+    border-radius: 30px;
+    padding-top: 40px;
+}
+
+/* Div onde separa o email e password */
+.email-and-password-div {
+    margin: auto;
+    width: 100%;
+    height: max-content;
+    padding-top: 50px;
+    line-height: 3;
+}
+
+/* Box onde ficara o input email  */
+.box-email {
+    background-color: purple;
+    height: 60px;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Input dentro do box */
+.box-email input {
+    width: 80%;
+    margin: 5px 4px 10px 78px;
+    height: 80%;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding: 5px;
+}
