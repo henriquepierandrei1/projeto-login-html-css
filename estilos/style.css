@@ -110,22 +110,36 @@ section {
 .input-button > #enter {
     padding: 10px;
     border-radius: 10px;
+    cursor: pointer;
     font-weight: 600;
     width: 30%;
     border: none;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.377);
+    transition-duration: 1s;
 }
-
 .input-button > #enter:hover {
-    background-color: black;
+    background-color: purple;
     color: white;
+    transition-duration: 1s;
 }
 
 .input-button > #reset {
     padding: 10px;
     border-radius: 10px;
     font-weight: 600;
+    cursor: pointer;
     width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(248, 207, 207);
+    text-decoration: none;
+    color: rgb(83, 71, 71);
     border: none;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.377);
+    transition-duration: 1s;
+}
+.input-button > #reset:hover {
+    background-color: rgb(230, 217, 230);
+    transition-duration: 1s;
 }
