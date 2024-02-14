@@ -19,7 +19,7 @@ body {
 section {
     background-color: white;
     width: 80%;
-    height: 90vh;
+    height: 700px;
     margin: 10% auto auto auto;
     border-radius: 30px;
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.363);
@@ -62,36 +62,52 @@ section {
 
 /* Article onde estara os inputs em relaçao a interacao com o usuario */
 #interacao-usuario {
-    background-color: red;
     width: 100%;
-    height: 49%;
+    height: 59%;
     border-radius: 30px;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 /* Div onde separa o email e password */
 .email-and-password-div {
     margin: auto;
     width: 100%;
-    height: max-content;
+    height: 400px;
     padding-top: 50px;
     line-height: 3;
 }
 
 /* Box onde ficara o input email  */
-.box-email {
+.box-email, .box-password {
+    display: flex;
+    justify-content: space-around;
     background-color: purple;
     height: 60px;
     width: 95%;
-    margin: auto;
+    margin: 20px auto auto auto;
     border-radius: 10px;
 }
 /* Input dentro do box */
-.box-email input {
-    width: 80%;
-    margin: 5px 4px 10px 78px;
+.box-email input, .box-password input {
+    display: inline;
+    width: 90%;
+    margin: 5px 5px 10px 0px;
     height: 80%;
     border-radius: 10px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 5px;
+}
+
+/* Div inputs botoes  */
+.input-button {
+    background-color: red;
+    margin-top: 30px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-button > button {
+    
 }
